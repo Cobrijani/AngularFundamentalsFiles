@@ -1,1 +1,12 @@
-{"name":"fall code camp","date":"1/1/2010","time":"10am","location":{"address":"123 fake st","city":"riverton","province":"ut"},"imageUrl":"http://s3.favim.com/orig/39/funny-llama-lol-nonsense-pink-Favim.com-325386.jpg","creator":"jmcooper","id":4}
+{
+  "name": "My Event",
+  "date": "11/11/2012",
+  "time": "8 am",
+  "location": {
+    "address": "Kod kuce lel",
+    "city": "Novi Sad",
+    "province": "NS"
+  },
+  "imageUrl": "http://www.disneyclipart.co/Chicken-Little/Disney-Chicken-Little.jpg",
+  "id": 4
+}

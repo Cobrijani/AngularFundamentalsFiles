@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="eventsApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Cookie store Sample Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body ng-cloak>
+
+<div class="container">
+    <div ng-controller="CookieStoreController" style="padding: 20px">
+        <button class="btn" ng-click="saveEventToCookie(event)">Store cookie</button>
+        <button class="btn" ng-click="getEventFromCookie()">Get cookie</button>
+        <button class="btn" ng-click="removeEventCookie()">Remove cookie</button>
+    </div>
+</div>
+
+
+<script src="lib/jquery.min.js"></script>
+<script src="lib/underscore-1.4.4.min.js"></script>
+<script src="lib/bootstrap.min.js"></script>
+<script src="lib/angular/angular.js"></script>
+<script src="lib/angular/angular-sanitize.js"></script>
+<script src="lib/angular/angular-resource.js"></script>
+<script src="lib/angular/angular-cookies.js"></script>
+<script src="lib/angular/angular-local_es.js"></script>
+<script src="js/app.js"></script>
+<script src="js/controllers/CookieStoreController.js"></script>
+<script src="js/services/EventData.js"></script>
+<script src="js/services/ExceptionHandler.js"></script>
+<script src="js/filters.js"></script>
+</body>
+
+</html>
